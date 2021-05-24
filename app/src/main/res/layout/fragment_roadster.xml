@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoadsterFragment"
+    android:background="#333333">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/teslainsider"
+            android:id="@+id/roadsterTitle" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/roadsterTitle"
+            android:id="@+id/roadsterBackButton"
+            android:text="Back" />
+
+
+        <TextView
+            android:textColor="#cccccc"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/roadsterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roadster" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/roadsterBackButton"
+            android:id="@+id/roadsterImage"
+            android:src="@drawable/teslaroadster2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterImage"
+            android:id="@+id/roadsterMainText"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="The Tesla Roadster is not available as of yet but is
+going to be the most expensive Tesla on the market when it releases. The car
+will be one of the quickest cars in the world due to it's record-setting acceleration,
+ range and performance. People can reserve this car right now on the official Tesla website."
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterMainText"
+            android:id="@+id/roadsterText1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Top Speed"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText1"
+            android:id="@+id/roadsterText2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="Over 200 mph"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText2"
+            android:id="@+id/roadsterText3"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0 - 60 mph"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText3"
+            android:id="@+id/roadsterText4"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="1.9 seconds"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText4"
+            android:id="@+id/roadsterText5"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Range on one charge"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText5"
+            android:id="@+id/roadsterText6"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="620 miles"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText6"
+            android:id="@+id/roadsterText7"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Drive"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText7"
+            android:id="@+id/roadsterText9"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="All-wheel drive"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText9"
+            android:id="@+id/roadsterText10"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Cargo"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText10"
+            android:id="@+id/roadsterText11"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="N/A"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText11"
+            android:id="@+id/roadsterText12"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Seating"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roadsterText12"
+            android:id="@+id/roadsterText13"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="4 Adults"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/roadsterText13"/>
+
+    </RelativeLayout>
+
+</ScrollView>

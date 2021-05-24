@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductsFragment"
+    android:background="#333333">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/productsContainer">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/teslainsider"
+        android:id="@+id/productsTitle" />
+
+    <TextView
+        android:textColor="#cccccc"
+        android:textSize="30dp"
+        android:layout_below="@+id/productsTitle"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Productstitle"
+        android:text="Products" />
+
+    <ImageButton
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@+id/Productstitle"
+        android:background="@drawable/teslamodel3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Model 3"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/product1"
+        android:layout_below="@+id/Productstitle" />
+
+    <ImageButton
+        android:id="@+id/Button2"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@+id/Button1"
+        android:background="@drawable/teslamodelx" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Model X"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/product2"
+        android:layout_below="@+id/Button1" />
+
+    <ImageButton
+        android:id="@+id/Button3"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_below="@+id/Button2"
+        android:background="@drawable/teslamodely" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="Model Y"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/product3"
+            android:layout_below="@+id/Button2" />
+
+        <ImageButton
+            android:id="@+id/Button4"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_below="@+id/Button3"
+            android:background="@drawable/teslamodels" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="Model S"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/product4"
+            android:layout_below="@+id/Button3" />
+
+        <ImageButton
+            android:id="@+id/Button5"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_below="@+id/Button4"
+            android:background="@drawable/teslaroadster2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="Roadster"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/product5"
+            android:layout_below="@+id/Button4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/Button5"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

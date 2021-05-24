@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Model3Fragment"
+    android:background="#333333">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/teslainsider"
+            android:id="@+id/model3Title" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/model3Title"
+            android:id="@+id/m3BackButton"
+            android:text="Back" />
+
+
+        <TextView
+            android:textColor="#cccccc"
+            android:textSize="30dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/model3Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/model3Main"
+            android:text="Model 3" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/m3BackButton"
+            android:id="@+id/model3Image"
+            android:src="@drawable/teslamodel3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/model3Image"
+            android:id="@+id/m3MainText"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="The Tesla model 3 is one of the cheapest Tesla
+cars on the market. It has been built for safety as it is made with an aluminum
+and steel frame to give it strength in every area, when testing this car
+resisted four times its mass even with a glass roof, which equates to
+two full grown african elephants."
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3MainText"
+            android:id="@+id/m3Text1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Top Speed"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text1"
+            android:id="@+id/m3Text2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="140mph - 162mph"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text2"
+            android:id="@+id/m3Text3"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0 - 60 mph"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text3"
+            android:id="@+id/m3Text4"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="5.3 - 3.1 seconds"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text4"
+            android:id="@+id/m3Text5"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Range on one charge"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text5"
+            android:id="@+id/m3Text6"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="278 - 352 miles"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text6"
+            android:id="@+id/m3Text7"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Drive"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text7"
+            android:id="@+id/m3Text8"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="Rear-wheel drive on standard"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text8"
+            android:id="@+id/m3Text9"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="All-wheel drive on long range and performance"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text9"
+            android:id="@+id/m3Text10"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Cargo"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text10"
+            android:id="@+id/m3Text11"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="542 Litres"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text11"
+            android:id="@+id/m3Text12"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Seating"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/m3Text12"
+            android:id="@+id/m3Text13"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="5 Adults"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/m3Text13"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsFragment"
+    android:background="#333333">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/teslainsider"
+        android:id="@+id/newsTitle" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/newsTitle"
+        android:src="@drawable/teslacybertruck"
+        android:id="@+id/newsImage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsTextMain"
+        android:layout_below="@+id/newsImage"
+        android:text="Within this part you will find links to articles that are from
+the Tesla blog going into details on all things Tesla. To see all articles from Tesla, click
+on the button at the bottom of the page."
+        android:textSize="20dp"
+        android:textColor="#cccccc" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton1"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsTextMain"
+        android:textColor="#cccccc"
+        android:text="Model 3 achieves the lowest probability of injury of any vehicle ever tested by NHTSA"
+        android:onClick="Open1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton2"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsButton1"
+        android:textColor="#cccccc"
+        android:text="Model Y Achieves 5-Star Overall Safety Rating from NHTSA"
+        android:onClick="Open2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton3"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsButton2"
+        android:textColor="#cccccc"
+        android:text="Accelerating Tesla’s Safety Culture"
+        android:onClick="Open3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton4"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsButton3"
+        android:textColor="#cccccc"
+        android:text="Model S Long Range Plus: Building the First 400-Mile Electric Vehicle"
+        android:onClick="Open4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton5"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsButton4"
+        android:textColor="#cccccc"
+        android:text="Introducing Software Version 10.0"
+        android:onClick="Open5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton6"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsButton5"
+        android:textColor="#cccccc"
+        android:text="Model X Earns a 5-Star Safety Rating from Euro NCAP"
+        android:onClick="Open6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsButton7"
+        android:backgroundTint="#333333"
+        android:layout_below="@+id/newsButton6"
+        android:textColor="#cccccc"
+        android:text="Model 3 Earns the 2019 IIHS TOP SAFETY PICK+ Award"
+        android:onClick="Open7" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsButton8"
+            android:backgroundTint="#333333"
+            android:layout_below="@+id/newsButton7"
+            android:textColor="#cccccc"
+            android:text="To see all articles click here."
+            android:onClick="Open8" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/newsButton8"/>
+
+    </RelativeLayout>
+</ScrollView>

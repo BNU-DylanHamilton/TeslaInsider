@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="#333333">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/teslainsider"
+        android:id="@+id/homeTitle" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/homeTitle"
+        android:id="@+id/homeImage"
+        android:src="@drawable/teslamodel3" />
+
+    <TextView
+        android:textColor="#cccccc"
+        android:textSize="25dp"
+        android:layout_below="@+id/homeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeText1"
+        android:text="Welcome to Tesla insider with this application we
+aim to bring our love for Teslas to the public so that people can find all of the
+main details of the cars and products that Tesla offers. " />
+
+    <TextView
+        android:id="@+id/homeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeText1"
+        android:textColor="#cccccc"
+        android:textSize="25dp"
+        android:text="Within this application you will also find news articles
+straight from the Tesla website with anything new that they are developing
+or updates on their previous models." />
+
+
+</RelativeLayout>

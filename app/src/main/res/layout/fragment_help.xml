@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpFragment"
+    android:background="#333333">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/teslainsider"
+        android:id="@+id/helpTitle" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/helpImage"
+        android:layout_below="@+id/helpTitle"
+        android:src="@drawable/teslaroadster" />
+
+
+    <TextView
+        android:id="@+id/helpText1"
+        android:textColor="#cccccc"
+        android:textSize="16dp"
+        android:layout_below="@+id/helpImage"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="DISCLAIMER: This application is not affiliated,
+associated, authorized, endorsed by, or in any way officially
+connected with Tesla, Inc or any of its subsidiaries."
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#cccccc"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/helpText2"
+        android:layout_below="@+id/helpText1"
+        android:text="Discovered a problem within the app? Need
+ help with something? or you just need to get in contact with us.
+Fill in the details below and we will get back to you as soon as possible."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#cccccc"
+        android:textSize="20dp"
+        android:id="@+id/emailText"
+        android:layout_below="@+id/helpText2"
+        android:text="Email:" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_below="@+id/emailText"
+        android:textColor="#cccccc"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#cccccc"
+        android:textSize="20dp"
+        android:id="@+id/questionText"
+        android:layout_below="@+id/editTextTextEmailAddress"
+        android:text="Question:" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_below="@+id/questionText"
+        android:layout_width="400dp"
+        android:textColor="#cccccc"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/helpbutton"
+        android:layout_below="@+id/editTextTextMultiLine"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:text="Submit" />
+
+    </RelativeLayout>
+
+</ScrollView>

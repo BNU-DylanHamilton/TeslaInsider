@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModelXFragment"
+    android:background="#333333">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/teslainsider"
+        android:id="@+id/modelXTitle" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/modelXTitle"
+            android:id="@+id/mXBackButton"
+            android:text="Back" />
+
+
+    <TextView
+        android:textColor="#cccccc"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/modelXTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model X" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/mXBackButton"
+            android:id="@+id/modelXImage"
+            android:src="@drawable/teslamodelx" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modelXImage"
+            android:id="@+id/mXMainText"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="The Tesla model X is still not available within
+the uk but is available to be pre-ordered for around £90,000 making it one
+of the more expensive Tesla's on the market.
+This model just like all of the other models is built for safety, it has a high
+strength architecture and floor-mounted battery pack for amazing occupant protection
+and low rollover risk. All Tesla model X's include Tesla's latest safety features
+at no extra cost."
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXMainText"
+            android:id="@+id/mXText1"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Top Speed"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText1"
+            android:id="@+id/mXText2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="155 - 163 mph"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText2"
+            android:id="@+id/mXText3"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="0 - 60 mph"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText3"
+            android:id="@+id/mXText4"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="3.8 - 2.5 seconds"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText4"
+            android:id="@+id/mXText5"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Range on one charge"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText5"
+            android:id="@+id/mXText6"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="340 - 360 miles"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText6"
+            android:id="@+id/mXText7"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Drive"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText7"
+            android:id="@+id/mXText9"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="All-wheel drive"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText9"
+            android:id="@+id/mXText10"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Cargo"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText10"
+            android:id="@+id/mXText11"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="2492 Litres"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText11"
+            android:id="@+id/mXText12"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Seating"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mXText12"
+            android:id="@+id/mXText13"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:text="7 Adults"
+            android:textColor="#cccccc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/mXText13"/>
+
+    </RelativeLayout>
+
+</ScrollView>
